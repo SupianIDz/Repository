@@ -1,0 +1,8 @@
+*.sublime-project
+*.sublime-workspace
+.env
+.php_cs.cache
+git
+sftp-config.json
+vendor
+repository

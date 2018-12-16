@@ -1,0 +1,9 @@
+{
+	"autoload": {
+		"psr": {
+			"App"   : "app",
+			"Octopy": "system"
+		},
+		"files": []
+	}
+}

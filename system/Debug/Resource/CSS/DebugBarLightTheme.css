@@ -1,0 +1,145 @@
+.__debugbar {
+    bottom: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    background-color: #DDDDDD;
+    color: #000;
+    border: 1px solid #0C1021;
+}
+
+.__debugbar_hide {
+    width: 33px;
+    height: 33px;
+    bottom: 0;
+}
+
+.__debugbar_history {
+    float: right;
+    padding-top: 3.5px;
+    margin-right: 8px;
+}
+
+.__debugbar_history > select {
+    color: #000;
+    background: transparent;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-overflow: '';
+    padding-right: 10px;
+}
+
+.__debugbar_logo {
+    background-color: #DDD;
+    border-right:1px solid #0C1021;
+    line-height: 20px;
+    clear: both;
+    float: left;
+    margin: 0px;
+}
+
+.__debugbar_logo img {
+    max-width: 33px;
+    vertical-align: middle;
+}
+
+.__debugbar_tab {
+    background-color: #DDD;
+    border: 1px solid #0C1021;
+    border-left: none;
+    border-top: none;
+    overflow: hidden;
+    margin-left: 2px;
+}
+
+.__debugbar_tablink {
+    background-color: inherit;
+    float: left;
+    outline: none;
+    cursor: pointer;
+    padding: 4px 4px;
+    top: 50%;
+}
+
+.__debugbar_tablink_active {
+    background-color: #0C1021;
+    color: #FFF;
+    float: left;
+    outline: none;
+    cursor: pointer;
+    padding: 4px 4px;
+    top: 50%;
+}
+
+.__debugbar_tablink img, .__debugbar_tablink_active img {
+    max-width: 24px;
+    vertical-align: middle;
+}
+
+.__debugbar_tablink span, .__debugbar_tablink_active span {
+    vertical-align: middle;
+}
+
+.__debugbar_tabcontent {
+    display: none;
+    padding: 6px 12px;
+    height: 100%;
+}
+
+.__debugbar_tabcontent_active {
+    padding: 6px 12px;
+    height: 100%;
+}
+
+a.__debugbar_button {
+    color: #000;
+    float: right;
+    padding-top: 7px;
+    margin-right: 8px;
+}
+
+.__debugbar_scroll {
+    overflow-x: hidden;
+    overflow-y: visible;
+    max-height: 100px;
+    margin-left: 3px;
+}
+
+.__debugbar_info {
+    font-size: 14px;
+    padding: 10px 5px 0px 5px;
+    font-weight: bold;
+}
+
+.__debugbar_info p {
+    margin-left: 20px;
+    margin-top: 3px;
+    margin-bottom: 1px;
+}
+
+.__debugbar_table {
+    font-size: 80%;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.__debugbar_table td {
+    padding:5px;
+}
+
+.__debubar_table tr {
+    background-color: #000;
+}
+
+.__debugbar_strong {
+    font-weight: bold;  
+}
+
+.__debugbar_hr {
+    border: none;
+    height: 1px;
+    color: #0C1021;
+    background-color: #DDD;
+}

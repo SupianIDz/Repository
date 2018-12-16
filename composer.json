@@ -1,0 +1,14 @@
+{
+    "name": "supianidz/octopy",
+    "description": "PHP Framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Supian M",
+            "email": "supianidz@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
